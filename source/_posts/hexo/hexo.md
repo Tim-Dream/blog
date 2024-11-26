@@ -1,6 +1,7 @@
 ---
 title: Github上部署Hexo
 date: 2024-11-26 13:06:06
+index_img: /img/hexo.png
 categories:
 - Hexo
 tags:

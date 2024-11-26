@@ -1,7 +1,7 @@
 ---
 title: Hexo以及Fluid常用语法
 date: 2024-11-26 13:53:49
-index_img: https://tim-dream.github.io/blog/img/default.png 
+index_img: /img/hexo.png
 categories:
 - Hexo
 ---
