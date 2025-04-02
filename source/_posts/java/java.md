@@ -8,9 +8,9 @@ tags:
 - 面试题
 ---
 
-#### JAVA
-##### JAVA基础
-###### Java基础数据类型
+## JAVA
+### JAVA基础
+#### Java基础数据类型
 - 整数类型
     - `byte` 8 位，范围 -128 到 127
     - `short` 16 位，范围 -32,768 到 32,767
@@ -24,28 +24,28 @@ tags:
 - 布尔类型
     - `boolean` 只有 true 和 false 两个值
 
-###### ==和equals的区别
+#### ==和equals的区别
 - `==`在比较基本数据类型的时候，比较值。比较对象的时候，比较对象的内存地址，就是判断两个对象是否为同一个对象
 - `equals`  是Object类中的一个方法，默认比较对象的内存地址，但很多类都会重写这个方法，一般用来比较对象的值是否相同
 
-###### 为什么重写equals时候必须重写hashCode方法
+#### 为什么重写equals时候必须重写hashCode方法
 - 因为基于哈希的集合类（如HashMap）需要基于这一点来正确存储和查找对象
 
-###### String,StringBuffer,StringBuilder的区别
+#### String,StringBuffer,StringBuilder的区别
 - `String`是不可变的，创建一个String之后，将存放与常量池中。再次创建相同的String，将指向同一内存地址。
 - `StringBuffer` 可变的，线程安全的。大多方法加了synchronized关键字，效率低一些
 - `StringBuilder` 可变的，线程不安全的。效率高一点
 
-###### for循环中，continue，break，return的区别
+#### for循环中，continue，break，return的区别
 - `continue`跳出当前循环，继续下次循环，多层循环中，只会跳出当前循环，不会结束上层循环
 - `break` 结束循环，多层循环中，只会结束当前循环，不会结束上层循环
 - `return` 结束当前方法，多层循环会结束所有循环
 
-###### 高数据准确性
+#### 高数据准确性
 - 使用`BigDecimal`
 - 将数据转为最小单位进行计算，比如金额中的分
 
-###### 什么是序列化，什么是反序列化
+#### 什么是序列化，什么是反序列化
 - 序列化是将对象转为字节流的过程，将对象保持到文件，数据库，网络传输
 - 反序列化是将字节流换回对象的过程
 - `Serializable`用于标记一个类可以被序列化
