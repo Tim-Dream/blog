@@ -13,9 +13,9 @@ tags:
 - 安装node.js
 - 安装Hexo
   
-  ```shell
+```shell
   npm install -g hexo-cli
-  ```
+```
 
 ### 新建项目
 
@@ -23,13 +23,14 @@ tags:
 - 移动项目中的`.git`文件夹，以及`README.md`文件到其他地方
 - 在文件夹下执行
   
-  ```shell
-  hexo init
-  ```
+```shell
+hexo init
+```
+
 - 将`.git`文件夹，以及`README.md`文件移动回当前目录
 - 新建`.github\workflows\pages.yml`文件
   
-  ```
+```yml
 name: Pages
 
 on:
