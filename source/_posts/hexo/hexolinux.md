@@ -4,6 +4,7 @@ date: 2024-11-26 14:21:16
 index_img: /img/hexo.png
 categories:
 - Hexo
+- Linux
 tags:
 - 服务器部署
 ---
