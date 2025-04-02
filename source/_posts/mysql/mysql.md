@@ -72,6 +72,3 @@ select user,host from mysql.user;
 ```sql
 update mysql.user set host='%' where user='root';
 ```
-  
-
-
