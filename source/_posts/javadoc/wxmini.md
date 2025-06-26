@@ -8,6 +8,8 @@ tags:
 - 微信小程序
 ---
 
+#### [源码](https://gitee.com/dreamm/java-jar/tree/master/wx-mini)  &nbsp;&nbsp;  [jar包](https://gitee.com/dreamm/java-jar/blob/master/wx-mini/src/main/resources/wx-mini-1.0.jar)
+
 #### 初始化对象
   
 ```java
